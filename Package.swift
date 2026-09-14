@@ -1,8 +1,8 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 /*
  * (c) 2026 BlackBerry Limited. All rights reserved.
  *
- * Version: "15.0.8513.75"
+ * Version: "15.1.8766.18"
  *
  */
 
@@ -11,7 +11,7 @@ import PackageDescription
 let package = Package(
     name: "BlackBerryDynamics",
     platforms: [
-        .iOS(.v17)
+        .iOS(.v18)
     ],
     products: [
         .library(
@@ -30,18 +30,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BlackBerryDynamics",
-            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.0.8513.75/BlackBerryDynamics_for_iOS_v15.0.8513.75.zip",
-            checksum: "507fc22128c5785b8198977c1c290e7a93553a006ce301a79587b8f34e1e2125"
+            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.1.8766.18/BlackBerryDynamics_for_iOS_v15.1.8766.18.zip",
+            checksum: "35b6d886220ee85c8ba994788e6cb84ac57203e39f9f1063f84ef18010e69b18"
         ),
         .binaryTarget(
             name: "GSEProvider",
-            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.0.8513.75/BlackBerryGSEProvider_for_iOS_v15.0.8513.75.zip",
-            checksum: "4dd920e0b91beb34c3e4e876a06bf35e28e8f26c9a919e66f990b2c2f2281d91"
+            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.1.8766.18/BlackBerryGSEProvider_for_iOS_v15.1.8766.18.zip",
+            checksum: "7a54b301007408d8880f0e9d46a28d6fea43319543763abd0a745e281140e4c3"
         ),
         .binaryTarget(
             name: "BlackBerryDynamicsAutomatedTestSupportLibrary",
-            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.0.8513.75/BlackBerryDynamicsAutomatedTestSupportLibrary_for_iOS_v15.0.8513.75.zip",
-            checksum: "3de964933db4f4f2b90466a3e06bc1e62a6973a07ec593e88b3646b580e01c52"
+            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.1.8766.18/BlackBerryDynamicsAutomatedTestSupportLibrary_for_iOS_v15.1.8766.18.zip",
+            checksum: "ac07f30d6f8bd583aea22ee582f94cd5c32b813e43e8a359f2eac910772d3b7b"
         )
     ]
 )
