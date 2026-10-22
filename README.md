@@ -1,7 +1,7 @@
 # Swift Package for BlackBerry Dynamics SDK for iOS
-
-## BlackBerry Dynamics Overview
-
+ 
+## BlackBerry Dynamics Overview 
+   
 [BlackBerry Dynamics](https://docs.blackberry.com/en/endpoint-management/blackberry-dynamics) is a mobile application development platform that enables secure communication, secure storage and exchange of data between enterprise apps according to enterprise security policies.
 
 For details on features and a development guide, see [BlackBerry Dynamics SDK for iOS](https://docs.blackberry.com/en/development-tools/blackberry-dynamics-sdk-ios/)

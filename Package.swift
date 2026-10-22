@@ -2,7 +2,7 @@
 /*
  * (c) 2026 BlackBerry Limited. All rights reserved.
  *
- * Version: "15.1.8766.18"
+ * Version: "15.3.8766.41"
  *
  */
 
@@ -30,18 +30,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BlackBerryDynamics",
-            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.1.8766.18/BlackBerryDynamics_for_iOS_v15.1.8766.18.zip",
-            checksum: "35b6d886220ee85c8ba994788e6cb84ac57203e39f9f1063f84ef18010e69b18"
+            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.3.8766.41/BlackBerryDynamics_for_iOS_v15.3.8766.41.zip",
+            checksum: "aff29cd67dd4f4f32104a85272296ca87949d214ca82ae0789760f3b62d4eaf1"
         ),
         .binaryTarget(
             name: "GSEProvider",
-            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.1.8766.18/BlackBerryGSEProvider_for_iOS_v15.1.8766.18.zip",
-            checksum: "7a54b301007408d8880f0e9d46a28d6fea43319543763abd0a745e281140e4c3"
+            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.3.8766.41/BlackBerryGSEProvider_for_iOS_v15.3.8766.41.zip",
+            checksum: "2b851584657f196821528d572c69abaddf542605f6bf1580eccf01b1f8696a2f"
         ),
         .binaryTarget(
             name: "BlackBerryDynamicsAutomatedTestSupportLibrary",
-            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.1.8766.18/BlackBerryDynamicsAutomatedTestSupportLibrary_for_iOS_v15.1.8766.18.zip",
-            checksum: "ac07f30d6f8bd583aea22ee582f94cd5c32b813e43e8a359f2eac910772d3b7b"
+            url: "https://software.download.blackberry.com/repository/framework/dynamics/ios/15.3.8766.41/BlackBerryDynamicsAutomatedTestSupportLibrary_for_iOS_v15.3.8766.41.zip",
+            checksum: "9cb2b5b4a1836666203d2848474c58b31b7cffc6e654e2a85ac4e12a224bd8ec"
         )
     ]
 )
